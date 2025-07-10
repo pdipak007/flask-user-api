@@ -2,7 +2,11 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
+<<<<<<< HEAD
 #  Dummy Users Table (10 fake entries)
+=======
+# Dummy Users Table (10 fake entries)
+>>>>>>> c13021773ef51c7620f31e68777724a1cc440476
 users = [
     {"id": 1, "name": "Amit", "email": "amit@example.com"},
     {"id": 2, "name": "Sita", "email": "sita@example.com"},
@@ -16,10 +20,17 @@ users = [
     {"id": 10, "name": "Kiran", "email": "kiran@example.com"}
 ]
 
+<<<<<<< HEAD
 #  Home Route
 @app.route('/')
 def home():
     return "Flask User API is Running"
+=======
+# Home Route
+@app.route('/')
+def home():
+    return " Flask User API is Running"
+>>>>>>> c13021773ef51c7620f31e68777724a1cc440476
 
 # GET /user API
 @app.route('/user', methods=['GET'])

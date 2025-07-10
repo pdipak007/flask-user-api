@@ -4,7 +4,11 @@ A simple Flask REST API that returns static user data in JSON format.
 
 ---
 
+<<<<<<< HEAD
 ##  How to Run This Project
+=======
+## Features
+>>>>>>> c13021773ef51c7620f31e68777724a1cc440476
 
 ###  Step 1: Clone the Repository
 
@@ -43,7 +47,11 @@ Now the API is live locally.
 
 ---
 
+<<<<<<< HEAD
 ##  API Endpoints
+=======
+## Tech Stack
+>>>>>>> c13021773ef51c7620f31e68777724a1cc440476
 
 ### `GET /user`
 
@@ -67,7 +75,11 @@ Returns a list of 10 sample users in JSON format.
 
 ---
 
+<<<<<<< HEAD
 ##  Project Structure
+=======
+## Project Structure
+>>>>>>> c13021773ef51c7620f31e68777724a1cc440476
 
 ```
 flask-user-api/
