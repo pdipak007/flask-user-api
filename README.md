@@ -1,11 +1,11 @@
-# 🚀 Flask User API
+#  Flask User API
 
 A simple Flask microservice that returns user data through a GET API.  
 This project demonstrates RESTful API creation using Python Flask.
 
 ---
 
-## 📚 Features
+## Features
 
 - Built using Flask framework
 - Dummy user table with 10 entries
@@ -14,7 +14,7 @@ This project demonstrates RESTful API creation using Python Flask.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python 3.x  
 - Flask  
@@ -23,5 +23,5 @@ This project demonstrates RESTful API creation using Python Flask.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
