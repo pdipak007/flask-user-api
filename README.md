@@ -1,27 +1,81 @@
-# 🚀 Flask User API
+# 🧩 Flask User API
 
-A simple Flask microservice that returns user data through a GET API.  
-This project demonstrates RESTful API creation using Python Flask.
-
----
-
-## 📚 Features
-
-- Built using Flask framework
-- Dummy user table with 10 entries
-- Single GET API endpoint: `/user`
-- JSON-formatted output
+A simple Flask REST API that returns static user data in JSON format.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 How to Run This Project
 
-- Python 3.x  
-- Flask  
-- REST API (GET method)  
-- JSON response format  
+### ✅ Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/pdipak007/flask-user-api.git
+cd flask-user-api
+```
+
+### ✅ Step 2: Create Virtual Environment (Optional but Recommended)
+
+```bash
+python3 -m venv venv
+source venv/bin/activate  # For Linux/Mac
+venv\Scripts\activate     # For Windows
+```
+
+### ✅ Step 3: Install Required Packages
+
+```bash
+pip install -r requirements.txt
+```
+
+### ✅ Step 4: Run the Flask App
+
+```bash
+python app.py
+```
+
+📌 You will see:
+
+```
+ * Running on http://127.0.0.1:5000/
+```
+
+Now the API is live locally.
 
 ---
 
-## 📂 Project Structure
+## 📡 API Endpoints
+
+### `GET /user`
+
+Returns a list of 10 sample users in JSON format.
+
+📦 Sample Response:
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Amit",
+    "email": "amit@example.com"
+  },
+  ...
+]
+```
+## 🖼️ API Output Screenshot
+
+![API Output](output.png)
+
+---
+
+## 📁 Project Structure
+
+```
+flask-user-api/
+│
+├── app.py              # Main Flask application
+├── README.md           # Documentation
+└── requirements.txt    # Dependencies
+```
+
+---
 
