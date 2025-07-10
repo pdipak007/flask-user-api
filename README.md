@@ -66,7 +66,8 @@ Returns a list of 10 sample users in JSON format.
 ```
 ---
 
-**API Output Screenshot:** 
+**API Output Screenshot:**
+ 
 ![API Output](output.png)
 
 
@@ -79,6 +80,6 @@ flask-user-api/
 ├── requirements.txt   - Python dependencies  
 ├── Dockerfile         - Docker configuration  
 ├── output.png         - Screenshot of API output  
-└── **README.md**          - Documentation
+└── README.md          - Documentation
 
 ---
