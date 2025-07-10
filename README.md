@@ -6,8 +6,6 @@ A simple Flask REST API that returns static user data in JSON format.
 
 ##  How to Run This Project
 
-## Features
-
 ###  Step 1: Clone the Repository
 
 ```bash
@@ -46,8 +44,6 @@ Now the API is live locally.
 ---
 
 ##  API Endpoints
-=======
-## Tech Stack
 
 ### `GET /user`
 
