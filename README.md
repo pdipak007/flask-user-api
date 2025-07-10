@@ -64,9 +64,10 @@ Returns a list of 10 sample users in JSON format.
   
 ]
 ```
+---
 ** API Output Screenshot: **
 ![API Output](output.png)
-
+---
 ** Project Structure:**
 
 flask-user-api/  
@@ -75,3 +76,4 @@ flask-user-api/
 ├── **Dockerfile**         - Docker configuration  
 ├── **output.png**         - Screenshot of API output  
 └── **README.md**          - Documentation
+---
