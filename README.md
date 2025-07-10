@@ -58,7 +58,7 @@ Returns a list of 10 sample users in JSON format.
     "name": "Amit",
     "email": "amit@example.com"
   },
-  ...
+  
 ]
 ```
 ##  API Output Screenshot
