@@ -5,8 +5,6 @@ app = Flask(__name__)
 
 #  Dummy Users Table (10 fake entries)
 
-# Dummy Users Table (10 fake entries)
-
 users = [
     {"id": 1, "name": "Amit", "email": "amit@example.com"},
     {"id": 2, "name": "Sita", "email": "sita@example.com"},
@@ -25,12 +23,6 @@ users = [
 @app.route('/')
 def home():
     return "Flask User API is Running"
-
-# Home Route
-@app.route('/')
-def home():
-    return " Flask User API is Running"
-
 
 # GET /user API
 @app.route('/user', methods=['GET'])
