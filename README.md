@@ -1,55 +1,58 @@
-#  Flask User API
+# Flask User API
 
 A simple Flask REST API that returns static user data in JSON format.
 
 ---
 
-##  How to Run This Project
+**How to Run This Project**
 
-###  Step 1: Clone the Repository
+**Step 1: Clone the Repository**
 
-```bash
-git clone https://github.com/pdipak007/flask-user-api.git
-cd flask-user-api
-```
+**git clone https://github.com/pdipak007/flask-user-api.git**  
+**cd flask-user-api**
 
-###  Step 2: Create Virtual Environment (Optional but Recommended)
+**Step 2: Create Virtual Environment (Optional but Recommended)**
 
-```bash
-python3 -m venv venv
-source venv/bin/activate  # For Linux/Mac
-venv\Scripts\activate     # For Windows
-```
+**python3 -m venv venv**  
+**source venv/bin/activate**  (For Linux/Mac)  
+**venv\Scripts\activate**     (For Windows)
 
-###  Step 3: Install Required Packages
+**Step 3: Install Required Packages**
 
-```bash
-pip install -r requirements.txt
-```
+**pip install -r requirements.txt**
 
-###  Step 4: Run the Flask App
+**Step 4: Run the Flask App**
 
-```bash
-python app.py
-```
+**python app.py**
 
- You will see:
+You will see:
 
-```
- * Running on http://127.0.0.1:5000/
-```
+Running on http://127.0.0.1:5000/
+
 
 Now the API is live locally.
 
 ---
 
-##  API Endpoints
+**Step 5: Run with Docker**
 
-### `GET /user`
+**docker build -t flask-user-api .**
 
+**docker run -d -p 5000:5000 flask-user-api**
+
+Now the Docker container is running.
+
+Open this in your browser:  
+**http://localhost:5000/user**
+
+---
+
+**API Endpoints**
+
+**GET /user**  
 Returns a list of 10 sample users in JSON format.
 
- Sample Response:
+**Sample Response:**
 
 ```json
 [
@@ -60,20 +63,15 @@ Returns a list of 10 sample users in JSON format.
   },
   
 ]
-```
-##  API Output Screenshot
 
+** API Output Screenshot: **
 ![API Output](output.png)
 
----
+** Project Structure:**
 
-##  Project Structure
-```
-flask-user-api/
-│
-├── app.py                  # Main Flask application
-├── README.md               # Documentation
-├── requirements.txt        # Python dependencies
-└── output.png              # Screenshot of API output
-```
----
+flask-user-api/  
+├── **app.py**             - Main Flask application  
+├── **requirements.txt**   - Python dependencies  
+├── **Dockerfile**         - Docker configuration  
+├── **output.png**         - Screenshot of API output  
+└── **README.md**          - Documentation
