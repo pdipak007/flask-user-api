@@ -65,10 +65,10 @@ Returns a list of 10 sample users in JSON format.
 ]
 ```
 ---
-** API Output Screenshot: **
+ API Output Screenshot: 
 ![API Output](output.png)
 ---
-** Project Structure:**
+ Project Structure:
 
 flask-user-api/  
 ├── **app.py**             - Main Flask application  
