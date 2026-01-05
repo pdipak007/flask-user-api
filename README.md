@@ -52,8 +52,9 @@ Now the API is live locally.
 **Option B: Run with Docker (Single Container)**
 
 **Step 1: Build the Docker Image**
-
-docker build -t flask-user-api .
+```
+docker build -t flask-user-api
+```
 
 **Step 2: Run the Container**
 ```
@@ -61,8 +62,9 @@ docker run -d -p 5000:5000 flask-user-api
 ```
 
 Open in browser:
-
+```
 http://localhost:5000/user
+```
 
 ---
 
@@ -79,8 +81,9 @@ Dummy data insertion
 Flask app running inside Docker container
 
 **Step 1: Make sure Docker Compose is installed**
-
+```
 docker-compose --version
+```
 
 If not installed:
 ```
@@ -90,12 +93,14 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 **Step 2: Run Everything**
-
+```
 docker-compose up --build
+```
 
 Then open:
-
+```
 http://localhost:5000/user
+```
 
 ---
 
