@@ -18,29 +18,34 @@ cd flask-user-api
 ```
 
 **Step 2: Create Virtual Environment (Optional but Recommended)**
-
+```python
 python3 -m venv venv
 source venv/bin/activate    # For Linux/Mac
 venv\Scripts\activate       # For Windows
+```
 
 **Step 3: Install Required Packages**
-
+```
 pip install -r requirements.txt
+```
 
 **Step 4: Initialize the Database**
-
+```python
 python init_db.py
+```
 
 This will create users.db inside the db/ folder and insert 10 dummy users.
 
 **Step 5: Run the Flask App**
-
+```python
 python app.py
+```
 
 You will see:
-
+```
 Running on http://127.0.0.1:5000/
 Now the API is live locally.
+```
 
 ---
 
@@ -51,8 +56,9 @@ Now the API is live locally.
 docker build -t flask-user-api .
 
 **Step 2: Run the Container**
-
+```
 docker run -d -p 5000:5000 flask-user-api
+```
 
 Open in browser:
 
@@ -77,10 +83,11 @@ Flask app running inside Docker container
 docker-compose --version
 
 If not installed:
-
+```
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.24.7/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 sudo chmod +x /usr/local/bin/docker-compose
+```
 
 **Step 2: Run Everything**
 
@@ -99,7 +106,7 @@ http://localhost:5000/user
 Returns a list of users from the SQLite database.
 
 Sample Response:
-
+```
 [
   {
     "id": 1,
@@ -113,6 +120,7 @@ Sample Response:
   },
  
 ]
+```
 
 
 ---
@@ -124,7 +132,7 @@ Sample Response:
 ---
 
 **Project Structure:**
-
+```
 flask-user-api/
 ├── app.py             - Main Flask application
 ├── init_db.py         - Creates table and inserts dummy users
@@ -135,5 +143,6 @@ flask-user-api/
 │   └── users.db       - Created automatically
 ├── output.png         - Screenshot of API output
 └── README.md          - Documentation
+```
 
 ---
