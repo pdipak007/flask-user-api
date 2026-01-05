@@ -15,6 +15,7 @@ A simple Flask REST API that **uses a SQLite database**, returns real user data 
 ```bash
 git clone https://github.com/pdipak007/flask-user-api.git
 cd flask-user-api
+```
 
 **Step 2: Create Virtual Environment (Optional but Recommended)**
 
